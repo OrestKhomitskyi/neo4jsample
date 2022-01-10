@@ -532,3 +532,7 @@ MATCH (a)-[:ACTED_IN]->(m)<-[:DIRECTED]-(d) RETURN a,m,d LIMIT 10;
 `
 
 or any query you want
+
+### Then you can use it
+
+Also u can open [http://localhost:7474](http://localhost:7474) to ingest or see data through neo4j aura
