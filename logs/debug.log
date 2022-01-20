@@ -1937,3 +1937,144 @@ org.neo4j.cypher.internal.parser.javacc.TokenMgrException: Lexical error at line
 2022-01-17 17:08:47.620+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/828c6f98] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 51 checkpoint started...
 2022-01-17 17:08:47.684+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/828c6f98] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 51 checkpoint completed in 61ms
 2022-01-17 17:08:47.685+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/828c6f98] No log version pruned. The strategy used was '104857600 size'. 
+2022-01-17 17:52:12.493+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=313, gcTime=0, gcCount=0}
+2022-01-17 18:00:18.681+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=528, gcTime=0, gcCount=0}
+2022-01-17 18:00:25.947+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=205, gcTime=0, gcCount=0}
+2022-01-17 18:10:47.533+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=786, gcTime=0, gcCount=0}
+2022-01-17 18:32:29.779+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=780, gcTime=0, gcCount=0}
+2022-01-17 18:32:37.193+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=383, gcTime=0, gcCount=0}
+2022-01-17 18:58:26.679+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=220, gcTime=0, gcCount=0}
+2022-01-17 19:29:15.297+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=856, gcTime=0, gcCount=0}
+2022-01-17 19:29:22.577+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=204, gcTime=0, gcCount=0}
+2022-01-17 20:01:59.756+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=218, gcTime=0, gcCount=0}
+2022-01-17 20:20:38.741+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=235, gcTime=0, gcCount=0}
+2022-01-17 20:39:08.346+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=216, gcTime=0, gcCount=0}
+2022-01-17 20:39:23.008+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=202, gcTime=0, gcCount=0}
+2022-01-17 22:17:03.266+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=680, gcTime=0, gcCount=0}
+2022-01-17 22:17:25.810+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=812, gcTime=0, gcCount=0}
+2022-01-17 22:26:18.926+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=242, gcTime=0, gcCount=0}
+2022-01-17 22:44:45.212+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=692, gcTime=0, gcCount=0}
+2022-01-17 22:45:07.138+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=224, gcTime=0, gcCount=0}
+2022-01-17 23:16:11.671+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=429, gcTime=0, gcCount=0}
+2022-01-17 23:38:29.924+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=331, gcTime=0, gcCount=0}
+2022-01-18 00:30:35.811+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=204, gcTime=0, gcCount=0}
+2022-01-18 01:06:02.197+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=282, gcTime=0, gcCount=0}
+2022-01-18 01:06:08.220+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=215, gcTime=0, gcCount=0}
+2022-01-18 01:47:30.439+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=216, gcTime=0, gcCount=0}
+2022-01-18 01:47:37.947+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=247, gcTime=0, gcCount=0}
+2022-01-18 02:26:51.514+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=212, gcTime=0, gcCount=0}
+2022-01-18 02:26:58.879+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=232, gcTime=0, gcCount=0}
+2022-01-18 02:27:06.130+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=203, gcTime=0, gcCount=0}
+2022-01-18 03:16:49.680+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=591, gcTime=0, gcCount=0}
+2022-01-18 07:51:01.004+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=235, gcTime=0, gcCount=0}
+2022-01-18 08:04:34.894+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=223, gcTime=0, gcCount=0}
+2022-01-18 08:48:52.436+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=239, gcTime=0, gcCount=0}
+2022-01-18 08:54:08.065+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=219, gcTime=0, gcCount=0}
+2022-01-18 09:45:19.178+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=230, gcTime=0, gcCount=0}
+2022-01-18 10:23:46.392+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=216, gcTime=0, gcCount=0}
+2022-01-18 10:48:43.879+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=255, gcTime=0, gcCount=0}
+2022-01-18 11:11:45.629+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=218, gcTime=0, gcCount=0}
+2022-01-18 11:45:58.622+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=243, gcTime=0, gcCount=0}
+2022-01-18 13:50:52.707+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=247, gcTime=0, gcCount=0}
+2022-01-18 13:50:58.764+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=229, gcTime=0, gcCount=0}
+2022-01-18 17:15:30.010+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=212, gcTime=0, gcCount=0}
+2022-01-18 17:15:44.624+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=248, gcTime=0, gcCount=0}
+2022-01-18 18:05:32.639+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=207, gcTime=0, gcCount=0}
+2022-01-18 18:23:50.234+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=257, gcTime=0, gcCount=0}
+2022-01-19 08:06:28.676+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=226, gcTime=0, gcCount=0}
+2022-01-19 14:21:47.788+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=229, gcTime=0, gcCount=0}
+2022-01-19 14:22:14.571+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=208, gcTime=0, gcCount=0}
+2022-01-19 15:12:56.053+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=249, gcTime=0, gcCount=0}
+2022-01-19 15:33:19.339+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=209, gcTime=0, gcCount=0}
+2022-01-19 17:26:21.271+0000 ERROR [o.n.b.t.p.ProtocolHandshaker] Fatal error occurred during protocol handshaking: [id: 0xfc48705a, L:/172.21.0.2:7687 - R:/172.21.0.1:60656]
+java.lang.NullPointerException: null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:362) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at org.neo4j.bolt.transport.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:60) ~[neo4j-bolt-4.4.2.jar:4.4.2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:253) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:514) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:446) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at org.neo4j.bolt.transport.pipeline.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:58) [neo4j-bolt-4.4.2.jar:4.4.2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795) [netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:4.1.69.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480) [netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:4.1.69.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378) [netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2022-01-19 17:26:25.750+0000 INFO  [o.n.c.i.ExecutionEngine] [neo4j/828c6f98] Discarded stale query from the query cache after 196947 seconds. Reason: NodesAllCardinality changed from 171.0 to 11.0, which is a divergence of 0.935672514619883 which is greater than threshold 0.014473857479887366. Query id: 5459
+2022-01-19 17:26:34.734+0000 INFO  [o.n.c.i.ExecutionEngine] [neo4j/828c6f98] Discarded stale query from the query cache after 193187 seconds. Reason: NodesAllCardinality changed from 10.0 to 11.0, which is a divergence of 0.09090909090909091 which is greater than threshold 0.01475004419352926. Query id: 5473
+2022-01-19 19:35:29.251+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=215, gcTime=0, gcCount=0}
+2022-01-20 03:49:12.708+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=239, gcTime=0, gcCount=0}
+2022-01-20 05:43:51.127+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=254, gcTime=0, gcCount=0}
+2022-01-20 05:44:03.254+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=226, gcTime=0, gcCount=0}
+2022-01-20 08:02:53.703+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=210, gcTime=0, gcCount=0}
+2022-01-20 09:07:35.178+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=245, gcTime=0, gcCount=0}
+2022-01-20 09:07:41.459+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=254, gcTime=0, gcCount=0}
+2022-01-20 10:23:06.343+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=222, gcTime=0, gcCount=0}
+2022-01-20 10:56:56.053+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=276, gcTime=0, gcCount=0}
+2022-01-20 10:57:10.714+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=214, gcTime=0, gcCount=0}
+2022-01-20 17:11:12.676+0000 ERROR [o.n.b.t.p.ProtocolHandshaker] Fatal error occurred during protocol handshaking: [id: 0xfe3ba155, L:/172.21.0.2:7687 - R:/172.21.0.1:61944]
+java.lang.NullPointerException: null
+	at io.netty.buffer.Unpooled.copiedBuffer(Unpooled.java:362) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at org.neo4j.bolt.transport.DiscoveryResponseHandler.channelRead(DiscoveryResponseHandler.java:60) ~[neo4j-bolt-4.4.2.jar:4.4.2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.handlerRemoved(ByteToMessageDecoder.java:253) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:514) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:446) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276) [netty-codec-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at org.neo4j.bolt.transport.pipeline.AuthenticationTimeoutHandler.channelRead(AuthenticationTimeoutHandler.java:58) [neo4j-bolt-4.4.2.jar:4.4.2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795) [netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:4.1.69.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480) [netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:4.1.69.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378) [netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:829) [?:?]

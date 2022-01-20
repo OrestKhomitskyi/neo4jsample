@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { useReadCypher } from "use-neo4j";
 import _ from "lodash";
 import Graph from "react-graph-vis";
-import { Button, Switch } from "antd";
+import { Switch } from "antd";
 import Text from "antd/lib/typography/Text";
 
 const structure = ["Hospitl", "Doctor", "Patient", "HealthIssues", "Issue"];
